@@ -52,16 +52,6 @@ CREATE DATABASE student_database;
 Update src/main/resources/application.properties:
 properties
 
-# Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/student_database
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-
-# JPA Properties
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
-
 # Optional: Format SQL queries in logs
 spring.jpa.properties.hibernate.format_sql=true
 
